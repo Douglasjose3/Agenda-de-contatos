@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Calculadora de médias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Images/icone_agenda.png" alt="capelo com diploma">
+            <h1>Agenda de contatos</h1>
+        </header>
+        
+        <form id="form-agenda">
+            <input type="text" id="agenda-nome" required placeholder="Nome e sobrenone" />
+            <input type="number" id="numero-telefone" required placeholder="Número de telefone" />
+            <button type="submit">Adicionar</button>
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Número do telefone</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Nome do contato</td>
+                    <td>Número do telefone</td>
+                </tr>
+            </tbody> 
+        </table>
+
+    <script src="./main.js"></script>
+</body>
+</html>
